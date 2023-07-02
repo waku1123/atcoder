@@ -5,5 +5,6 @@ def main():
         S = S.replace(template, "")
     print("YES") if S == "" else print("NO")
 
+
 if __name__ == "__main__":
     main()
