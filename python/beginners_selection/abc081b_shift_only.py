@@ -1,8 +1,8 @@
-def is_odd_all(target: list):
+def is_odd_all(target: list) -> bool:
     return all([t % 2 == 0 for t in target])
 
 
-def main():
+def main() -> None:
     _ = int(input())
     s_n = list(map(int, input().split(" ")))
     c = 0

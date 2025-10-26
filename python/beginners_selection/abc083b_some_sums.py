@@ -1,4 +1,4 @@
-def main():
+def main() -> None:
     N, A, B = tuple(map(int, input().split(" ")))
     total = 0
     for val in [str(i) for i in range(1, N + 1)]:

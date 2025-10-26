@@ -1,5 +1,5 @@
-def main():
-    N = int(input())
+def main() -> None:
+    N: int = int(input())
     plans = []
     for i in range(N):
         plans.append(map(int, input().split(" ")))
@@ -12,6 +12,7 @@ def main():
             return
         st, sx, sy = t, x, y
     print("Yes")
+
 
 if __name__ == "__main__":
     main()

@@ -1,8 +1,7 @@
 def main():
     N = int(input())
     d = []
-    for _ in range(N):
-        d.append(int(input()))
+    d = [int(input()) for _ in range(N)]
     d = list(set(d))
     print(len(d))
 

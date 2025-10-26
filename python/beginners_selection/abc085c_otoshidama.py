@@ -1,4 +1,4 @@
-def check(N, Y):
+def check(N: int, Y: int) -> str:
     res10000 = -1
     res5000 = -1
     res1000 = -1
@@ -14,7 +14,7 @@ def check(N, Y):
     return f"{res10000} {res5000} {res1000}"
 
 
-def main():
+def main() -> None:
     N, Y = list(map(int, input().split(" ")))
     print(check(N, Y))
 
