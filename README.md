@@ -1,6 +1,6 @@
-# atcoder
-
+# my atcoder answers
 
 ## contests
+
 - [Beginners Selection](https://atcoder.jp/contests/abs)
-- [Typical 90](https://atcoder.jp/contests/typical90)
+- [typical 90](https://atcoder.jp/contests/typical90)
